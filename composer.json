@@ -1,0 +1,19 @@
+{
+    "name": "eykj/wechat",
+    "description": "一一科技微信组件",
+    "license": "MIT",
+    "keywords": [
+        "eykj",
+        "wechat"
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Eykj\\wechat\\": "src/"
+        },
+        "files": []
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
