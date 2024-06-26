@@ -32,6 +32,6 @@ class Service
      */
     public function get_access_token(): string
     {
-        return $this->AuthInterface->get_access_token('Wechat', $param);
+        return $this->AuthInterface->get_access_token('Wechat', []);
     }
 }
