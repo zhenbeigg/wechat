@@ -3,7 +3,7 @@
  * @author: 布尔
  * @name: 微信Service类
  * @desc: 介绍
- * @LastEditTime: 2024-06-26 17:12:06
+ * @LastEditTime: 2024-06-26 17:19:48
  */
 
 namespace Eykj\Wechat;
@@ -18,7 +18,7 @@ class Service
     protected ?AuthInterface $AuthInterface;
 
     // 通过设置参数为 nullable，表明该参数为一个可选参数
-    public function __construct(?GuzzleHttp $GuzzleHttp,?AuthInterface $AuthInterface;)
+    public function __construct(?GuzzleHttp $GuzzleHttp,?AuthInterface $AuthInterface)
     {
         $this->GuzzleHttp = $GuzzleHttp;
         $this->AuthInterface = $AuthInterface;
