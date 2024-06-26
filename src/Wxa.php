@@ -56,9 +56,7 @@ class Wxa
         /* 获取token */
         $access_token = $this->Service->get_access_token();
         $url = env('WECHAT_URL', 'https://api.weixin.qq.com') . "/wxa/generatescheme?access_token=" . $access_token;
-        var_dump($url);
         $data = eyc_array_key($param, 'jump_wxa,is_expire,expire_time,expire_type,expire_interval');
-        var_dump($data);
         $r = $this->GuzzleHttp->post($url, $data);
         unset($url);
         unset($data);

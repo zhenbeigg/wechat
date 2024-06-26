@@ -3,7 +3,7 @@
  * @author: 布尔
  * @name: 微信Service类
  * @desc: 介绍
- * @LastEditTime: 2024-06-26 17:19:48
+ * @LastEditTime: 2024-06-26 17:12:06
  */
 
 namespace Eykj\Wechat;
