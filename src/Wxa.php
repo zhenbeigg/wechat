@@ -7,7 +7,7 @@
  * @FilePath: \eyc3_visitor\app\Lib\Plugins\Wechat\Wxa.php
  */
 
-namespace App\Wechat;
+namespace Eykj\Wechat;
 
 use Eykj\Base\GuzzleHttp;
 use Eykj\Wechat\Service;
